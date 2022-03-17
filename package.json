@@ -1,0 +1,23 @@
+{
+  "name": "firstwin",
+  "version": "1.0.0",
+  "description": "create first best frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawar41/firstwin.git"
+  },
+  "keywords": [
+    "challange",
+    "developer"
+  ],
+  "author": "shawnp410@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawar41/firstwin/issues"
+  },
+  "homepage": "https://github.com/pawar41/firstwin#readme"
+}
