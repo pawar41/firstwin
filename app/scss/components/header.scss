@@ -13,8 +13,17 @@
     &__title {
         width: 100%;
 
-        @include breakpoint(medium) {
+        padding-bottom: rem(26);
+        border-bottom: rem(1) solid var(--dark-text1);
+        border-radius: rem(1);
+        margin-bottom: rem(22) ;
+
+        @include breakpoint(large) {
             width: auto;
+            
+            padding-bottom: 0;
+            margin-bottom: 0;
+            border: none;
         }
     }
 
@@ -22,5 +31,13 @@
         font-size: rem(14);
         font-weight: 700;
         color: var(--dark-text1);
+    }
+    
+    &__toggle {
+        color: var(--dark-text1);
+
+        @include breakpoint(medium) {
+            color: inherit; //var(--dark-text1);
+        }
     }
 }

@@ -5,8 +5,10 @@
     display: grid;
     grid-template-columns: 1fr rem(60) 1fr;
     grid-template-rows: repeat(2, 1fr);
-    gap: rem(4.8) rem(8);
+    gap: rem(4.8) rem(8); //row columc
     margin: 0;
+
+    margin-left: auto;
     font-weight: 700;
 
     label {
